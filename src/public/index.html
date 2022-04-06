@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body>
+    <h1>League of legend champ's generator</h1>
+    <form id="champForm">
+        <label>Champ's name:</label>
+        <input type="text" name="name">
+        <label>Champ's rol:</label>
+        <input type="text" name="rol">
+        <label>Champ's image:</label>
+        <input name="img">
+        <input type="submit" value="Enviar champ">
+    </form>
+    <ul id="champsTemplate">
+        
+    </ul>
+
+    <div id="chatContainer">
+        <input type="text" id="chatInput" placeholder="chat">
+        <p id="chatLog"></p>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <script src="./socket.io/socket.io.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

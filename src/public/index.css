@@ -1,0 +1,20 @@
+.chatMessage{
+    display: flex;
+    flex-direction: row;
+}
+
+.email{
+    font-weight: bold;
+    color: rgb(37, 37, 134);
+}
+
+.time{
+    color: rgb(151, 40, 40);
+    order: 2;
+    margin-left: auto;
+}
+
+.message{
+    color: #008800;
+    font-style: italic;
+}
