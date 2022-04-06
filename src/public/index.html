@@ -10,6 +10,10 @@
 </head>
 
 <body>
+    <div id="chatContainer">
+        <input type="text" id="chatInput" placeholder="chat">
+        <p id="chatLog"></p>
+    </div>
     <h1>League of legend champ's generator</h1>
     <form id="champForm">
         <label>Champ's name:</label>
@@ -24,10 +28,7 @@
         
     </ul>
 
-    <div id="chatContainer">
-        <input type="text" id="chatInput" placeholder="chat">
-        <p id="chatLog"></p>
-    </div>
+
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
     <script src="./socket.io/socket.io.js"></script>
